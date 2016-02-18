@@ -1,0 +1,7 @@
+
+
+        balls = game.getBalls()
+        for ball in balls:
+            for ball2 in balls:
+                if ball != ball2 and ball.intersects(ball2):
+                    ball.changeDirection(ball2)

@@ -1,0 +1,31 @@
+Create a python rock-paper-scissors game to play against computer.
+
+* The script should be run from a CLI.
+* Ater running the program, it swould wait for user input, "r" for rock, "p" for paper, "s" for scissors, "e" for exit.
+* If the user input is not valid, the program should keep asking for correct input.
+* After valid user input, the program should randomly select an "r", "p" or "s".
+* User's input should be compared with computer's one, and print a won/lost/drawn message.
+
+When executing these lines, result should be as expected:
+
+$ python game.py
+Input: r for Rock, p for Paper, s for Scissors, e for Exit: r
+You choose rock
+Computer choose paper
+You lose
+
+Input: r for Rock, p for Paper, s for Scissors, e for Exit: s
+You choose Scissors
+Computer choose paper
+You won!!
+
+Input: r for Rock, p for Paper, s for Scissors, e for Exit: p
+You choose paper
+Computer choose paper
+Draw
+
+Input: r for Rock, p for Paper, s for Scissors, e for Exit: x
+Computer choose scissors
+Input was not valid
+Input: r for Rock, p for Paper, s for Scissors, e for Exit: e
+

@@ -1,0 +1,39 @@
+Create a python script that executes 2 simple operations: sum of numbers and multiplication of numbers.
+
+* The script should be run from a CLI.
+* The script should recieve multiple parameters: one for the desired operation and others for the operands.
+* There must be validation of parameters.
+* The numbers can be integers or floats, positives or negatives.
+* Print in console when validation fails.
+* End with an error code if there was any.
+* Print result of the operation in console.
+
+When executing these lines, result should be as expected:
+
+$ python calculator.py sum 2 5
+Result is: 7
+
+$ python calculator.py sum 2 5 1.5 -5
+Result is: 3.5
+
+$ python calculator.py multiply 1 2
+Result is: 2
+
+$ python calculator.py multiply 1 2 1.5 -3.6
+Result is: -10.8
+
+$ python calculator.py multiply 1 2 foo
+Argument: foo is not a valid number
+
+$ python calculator.py sum 2 1.5.2
+Argument: 1.5.2 is not a valid number
+
+$ python calculator.py sum 1.5.2 2
+Argument: 1.5.2 is not a valid number
+
+$ python calculator.py sum
+Not enough information
+
+$ python calculator.py 2,5 sum
+Operation not valid
+

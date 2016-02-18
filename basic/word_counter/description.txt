@@ -1,0 +1,24 @@
+Create a python script that opens and reads a text file and counts its words.
+
+* The script should be run from a CLI.
+* There should be a text file with some content to read.
+* Count how many appearances of a word are found in the text.
+* It will be assumed that the input text file exists.
+* Omit any symbol that does not belong to a common word ,.:;"() 's.
+* Create an alphabetically ordered by word csv file.
+* Create csv file sorted by most appearences words.
+* If the files don't exists must be created, if the files exists, must be overwritten.
+
+When executing these lines, result should be as expected:
+
+$ ls
+article.txt  description.txt  word_counter.py
+
+$ python word_counter.py
+File loaded
+File alphabetical.csv created
+File numerical.csv created
+
+$ ls
+alphabetical.csv  article.txt  description.txt  numerical.csv  word_counter.py
+

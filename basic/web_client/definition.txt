@@ -1,0 +1,5 @@
+Create a python server and a python client.
+
+* The server can respond to GET and POST requests
+* The client can request using GET and POST methods
+* The server should serve a HTML or JSON object for responses

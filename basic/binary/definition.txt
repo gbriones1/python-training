@@ -1,0 +1,31 @@
+Create a python script that executes 2 simple operations: convert string to binary and convert string to int.
+
+* The script should be executed from CLI
+* The script should prompt for user input (one decimal and one binary)
+* The input string should be validated before it can be converted
+
+When executing these lines, result should be as expected:
+
+$ python binary.py
+Enter a binary: 111
+Converting to decimal...
+7
+Enter a decimal: 50
+Converting to binary...
+0b110010
+
+$ python binary.py
+Enter a binary: 0b0010
+Converting to decimal...
+2
+Enter a decimal: 0x16
+Converting to binary...
+Input is not a decimal: 0x16
+
+$ python binary.py
+Enter a binary: 0102
+Converting to decimal...
+Input is not a binary: 0102
+Enter a decimal: 1010
+Converting to binary...
+0b1111110010

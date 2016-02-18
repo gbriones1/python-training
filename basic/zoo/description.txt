@@ -1,0 +1,16 @@
+Create a python script to write your pet adoption life story using class inheritance. Use the UML diagram for reference.
+
+* There should be Life class with YEAR and BEINGS class variables, so yo can keep track of living beings ages
+* Life can timePass by years
+* There suld be an Animal parent class for all living beings, all animals should have an age and can have a name
+* An Animal object can growUp, recieveName and doSomething
+* Pet and WildAnimal classes should inherit from Animal
+* Mammal, Bird, Fish, Insect should inherit from Animal
+* Include more animal clases to multiple inherit from Pet or WildAnimal and also an animal family
+* A person can adoptPet and playWithPets, and must have a name
+* A Pet is adopted by recieving a name and a master
+* A WildAnimal cannot be adopted
+* When timePass all animals should growUp
+* All animals should overwrite the doSomething method
+* The doSomething method should include actions that are specifically related to the class besides the actions related to all parent classes
+
