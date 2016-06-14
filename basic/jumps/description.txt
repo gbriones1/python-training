@@ -1,0 +1,14 @@
+Create a python jumps game considering the following rules:
+
+* The objective is to simulate a race of one player.
+* The game should measure the time of the race. Try to get to the end faster.
+* Player should move through a linear sequence of cells using the keys 1 and 2.
+* Key 1 will move player one cell ahead.
+* Key 2 will move player two cells ahead.
+* The path should be generated randomly.
+* Cells should contain a random number of powerup and punishment cells. (Preferably, the 40% of the spots).
+* Powerups will move player forward one cell automatically.
+* Punishments will move player backward one cell automatically.
+* Make sure to avoid infinite loops between powerups and punishments, or that an unbeatable game is generated.
+
+

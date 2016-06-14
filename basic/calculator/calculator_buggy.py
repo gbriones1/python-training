@@ -19,18 +19,18 @@ if __name__ == "__main__":
     else:
         print "Operation not valid"
         exit(1)
-    
+
 def multiply(numbers):
     acumulator = 0
     for n in numbers:
         n *= acumulator
     return acumulator
-      
+
 def is_string_int(number_string):
     if number_string.isdigit() or number_string.startswith("-") and number_string[1:].isdigit():
         return true
     return false
-    
+
 def validate_strings_are_numbers(strings):
     for number_string in strings:
         if is_string_int(number_string):
